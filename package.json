@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.23"
+  },
+  "name": "muhammadzaeemaltaf_oop_mybank",
+  "version": "1.0.0",
+  "main": "index.js", 
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "muhammadzaeemaltaf",
+  "license": "ISC",
+  "description": "This project simulates a simple banking system using TypeScript and Inquirer.js, allowing users to view balances, withdraw cash, and deposit funds with interactive prompts and validation."
+}
